@@ -14,7 +14,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header>
+        <q-item-label header clickable tag="a" target="_self" href="/">
           Menu
         </q-item-label>
 
@@ -33,6 +33,12 @@ import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
+  {
+    title: 'Home',
+    caption: '',
+    icon: 'home',
+    link: ''
+  },
   {
     title: 'Patients',
     caption: 'Liste des patients',
