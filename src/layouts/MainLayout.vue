@@ -37,7 +37,7 @@ const linksList = [
     title: 'Patients',
     caption: 'Liste des patients',
     icon: 'supervised_user_circle',
-    link: 'https://quasar.dev'
+    link: '#/patients'
   },
   {
     title: 'Suivis et alertes',
