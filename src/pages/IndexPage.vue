@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex column flex-center">
-    <p>la teub</p>
+    <p>Patients</p>
     <div class="flex">
       <ExampleCard />
       <ExampleCard />
